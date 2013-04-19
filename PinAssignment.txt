@@ -17,8 +17,12 @@
 	P1.13				
 	P1.4				P1.4
 	P1.5				P1.5
-	P1.8				P1.12
-	P14.3				P1.9
-	P2.6				P2.7
-					P3.2
+	P1.8				P1.12 (CAN2)
+	P14.3 (CAN1)			P1.9
+	P2.6 (CAN2)			P2.7
+					P3.2 (CAN1)
 
+	P1.14 SPI-CS
+        P1.10 SPI-CLK
+        P1.4  SPI-MRST
+        P1.5  SPI-MTSR
