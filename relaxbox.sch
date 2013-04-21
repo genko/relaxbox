@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <!DOCTYPE eagle SYSTEM "eagle.dtd">
-<eagle version="6.3">
+<eagle version="6.4">
 <drawing>
 <settings>
 <setting alwaysvectorfont="no"/>
@@ -13202,17 +13202,6 @@ by exp-project-lbr.ulp</description>
 <pinref part="X2" gate="G$1" pin="40"/>
 <junction x="129.54" y="160.02"/>
 <wire x1="144.78" y1="160.02" x2="129.54" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="160.02" x2="124.46" y2="160.02" width="0.1524" layer="91"/>
-<junction x="124.46" y="160.02"/>
-<pinref part="S2" gate="1" pin="6"/>
-<wire x1="116.84" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="162.56" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
-<wire x1="119.38" y1="160.02" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="4"/>
-<wire x1="119.38" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
-<pinref part="S2" gate="1" pin="5"/>
-<wire x1="116.84" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
-<junction x="119.38" y="160.02"/>
 <pinref part="SV2" gate="G$1" pin="20"/>
 <wire x1="88.9" y1="144.78" x2="124.46" y2="144.78" width="0.1524" layer="91"/>
 <junction x="124.46" y="144.78"/>
@@ -13263,7 +13252,8 @@ by exp-project-lbr.ulp</description>
 <junction x="20.32" y="154.94"/>
 </segment>
 <segment>
-<wire x1="121.92" y1="167.64" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="167.64" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<wire x1="121.92" y1="160.02" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 <wire x1="121.92" y1="142.24" x2="127" y2="142.24" width="0.1524" layer="91"/>
 <pinref part="X2" gate="G$1" pin="37"/>
 <wire x1="121.92" y1="167.64" x2="127" y2="167.64" width="0.1524" layer="91"/>
@@ -13281,6 +13271,17 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV2" gate="G$1" pin="19"/>
 <wire x1="88.9" y1="142.24" x2="121.92" y2="142.24" width="0.1524" layer="91"/>
 <junction x="121.92" y="142.24"/>
+<pinref part="S2" gate="1" pin="4"/>
+<pinref part="S2" gate="1" pin="6"/>
+<wire x1="116.84" y1="162.56" x2="119.38" y2="162.56" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="162.56" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
+<pinref part="S2" gate="1" pin="5"/>
+<wire x1="116.84" y1="160.02" x2="119.38" y2="160.02" width="0.1524" layer="91"/>
+<junction x="119.38" y="160.02"/>
+<wire x1="119.38" y1="160.02" x2="119.38" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="157.48" x2="116.84" y2="157.48" width="0.1524" layer="91"/>
+<wire x1="119.38" y1="160.02" x2="121.92" y2="160.02" width="0.1524" layer="91"/>
+<junction x="121.92" y="160.02"/>
 </segment>
 <segment>
 <pinref part="JP9" gate="G$1" pin="VCC"/>
