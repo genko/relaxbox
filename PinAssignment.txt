@@ -6,12 +6,12 @@
 	P1.5				P1.5
 	P2.14				P2.14
 	P2.15				P
-	P2.2				P
-	P2.5				P2.5
+	(P2.2)UARTC			P
+	P2.5				(P2.5)UARTC
 	P3.4				P3.5
 	P4.0				P
-	(P5.0)UARTC			P5.0
-	P5.1				(P5.1)UARTC
+	P5.0				P5.0
+	P5.1				P5.1
 
 	CAN receive			transmit
 	P1.13				
@@ -22,7 +22,7 @@
 	P2.6 (CAN2)			P2.7
 					P3.2 (CAN1)
 
-	P1.14 SPI-CS
-        P2.4 SPI-CLK
-        P2.2  SPI-MRST
-        P2.5  SPI-MTSR
+	P1.8 SPI-CS
+        P1.1 SPI-CLK
+        P1.4 SPI-MRST
+        P1.5 SPI-MTSR
