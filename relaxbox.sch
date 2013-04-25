@@ -12209,8 +12209,14 @@ by exp-project-lbr.ulp</description>
 <instance part="R13" gate="G$1" x="-22.86" y="185.42"/>
 <instance part="P+1" gate="1" x="-33.02" y="261.62"/>
 <instance part="JP6" gate="B" x="-76.2" y="233.68" rot="R90"/>
-<instance part="JP5" gate="1" x="96.52" y="205.74" rot="R270"/>
-<instance part="JP7" gate="1" x="96.52" y="195.58" rot="R270"/>
+<instance part="JP5" gate="1" x="96.52" y="205.74" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.52" y="209.55" size="1.778" layer="95"/>
+<attribute name="VALUE" x="96.52" y="200.025" size="1.778" layer="96"/>
+</instance>
+<instance part="JP7" gate="1" x="96.52" y="195.58" smashed="yes" rot="R270">
+<attribute name="NAME" x="96.52" y="199.39" size="1.778" layer="95"/>
+<attribute name="VALUE" x="96.52" y="189.865" size="1.778" layer="96"/>
+</instance>
 <instance part="P+2" gate="VCC" x="127" y="172.72"/>
 <instance part="P+3" gate="1" x="10.16" y="152.4"/>
 <instance part="P+4" gate="1" x="129.54" y="165.1"/>
@@ -12219,7 +12225,12 @@ by exp-project-lbr.ulp</description>
 <instance part="R5" gate="G$1" x="86.36" y="157.48"/>
 <instance part="R14" gate="G$1" x="86.36" y="160.02"/>
 <instance part="R15" gate="G$1" x="86.36" y="162.56"/>
-<instance part="JP9" gate="G$1" x="175.26" y="142.24"/>
+<instance part="JP9" gate="G$1" x="175.26" y="142.24" smashed="yes">
+<attribute name="VALUE" x="170.18" y="132.08" size="1.778" layer="96"/>
+<attribute name="NAME" x="170.18" y="153.162" size="1.778" layer="95"/>
+<attribute name="VALUE" x="170.18" y="132.08" size="1.778" layer="96"/>
+<attribute name="NAME" x="170.18" y="153.162" size="1.778" layer="95"/>
+</instance>
 <instance part="+3V3" gate="G$1" x="198.12" y="144.78" rot="R270"/>
 <instance part="SV1" gate="G$1" x="58.42" y="119.38" rot="MR0"/>
 <instance part="SV2" gate="G$1" x="81.28" y="121.92"/>
