@@ -12295,9 +12295,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV2" gate="G$1" pin="16"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="T1IN"/>
-<wire x1="40.64" y1="205.74" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
-<label x="27.94" y="205.74" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="R2OUT"/>
+<wire x1="40.64" y1="198.12" x2="27.94" y2="198.12" width="0.1524" layer="91"/>
+<label x="30.48" y="198.12" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P0.4" class="0">
@@ -12307,9 +12307,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="X2" gate="G$1" pin="34"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="R1OUT"/>
-<wire x1="40.64" y1="200.66" x2="27.94" y2="200.66" width="0.1524" layer="91"/>
-<label x="27.94" y="200.66" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="T2IN"/>
+<wire x1="40.64" y1="203.2" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
+<label x="30.48" y="203.2" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P0.3" class="0">
@@ -12343,9 +12343,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV1" gate="G$1" pin="17"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="R2OUT"/>
-<wire x1="40.64" y1="198.12" x2="27.94" y2="198.12" width="0.1524" layer="91"/>
-<label x="27.94" y="198.12" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="R1OUT"/>
+<wire x1="40.64" y1="200.66" x2="27.94" y2="200.66" width="0.1524" layer="91"/>
+<label x="30.48" y="200.66" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P0.0" class="0">
@@ -12356,9 +12356,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV1" gate="G$1" pin="18"/>
 </segment>
 <segment>
-<pinref part="IC1" gate="G$1" pin="T2IN"/>
-<wire x1="40.64" y1="203.2" x2="27.94" y2="203.2" width="0.1524" layer="91"/>
-<label x="27.94" y="203.2" size="1.778" layer="95"/>
+<pinref part="IC1" gate="G$1" pin="T1IN"/>
+<wire x1="40.64" y1="205.74" x2="27.94" y2="205.74" width="0.1524" layer="91"/>
+<label x="30.48" y="205.74" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.15" class="0">
@@ -12374,11 +12374,6 @@ by exp-project-lbr.ulp</description>
 <label x="111.76" y="109.22" size="1.778" layer="95"/>
 <pinref part="X2" gate="G$1" pin="11"/>
 <pinref part="SV2" gate="G$1" pin="6"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="CS#"/>
-<wire x1="22.86" y1="251.46" x2="15.24" y2="251.46" width="0.1524" layer="91"/>
-<label x="12.7" y="251.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.13" class="0">
@@ -12396,9 +12391,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV2" gate="G$1" pin="7"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="TXD"/>
-<wire x1="144.78" y1="269.24" x2="139.7" y2="269.24" width="0.1524" layer="91"/>
-<label x="134.62" y="269.24" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="TXD"/>
+<wire x1="88.9" y1="269.24" x2="76.2" y2="269.24" width="0.1524" layer="91"/>
+<label x="78.74" y="269.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.11" class="0">
@@ -12415,16 +12410,6 @@ by exp-project-lbr.ulp</description>
 <pinref part="X2" gate="G$1" pin="15"/>
 <pinref part="SV2" gate="G$1" pin="8"/>
 </segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="SCLK1"/>
-<wire x1="22.86" y1="254" x2="15.24" y2="254" width="0.1524" layer="91"/>
-<label x="12.7" y="254" size="1.778" layer="95"/>
-</segment>
-<segment>
-<pinref part="U$2" gate="G$1" pin="SCLK2"/>
-<wire x1="22.86" y1="256.54" x2="15.24" y2="256.54" width="0.1524" layer="91"/>
-<label x="12.7" y="256.54" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="P1.9" class="0">
 <segment>
@@ -12440,6 +12425,11 @@ by exp-project-lbr.ulp</description>
 <pinref part="X2" gate="G$1" pin="16"/>
 </segment>
 <segment>
+<pinref part="JP9" gate="G$1" pin="TXO"/>
+<wire x1="180.34" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
+<label x="187.96" y="142.24" size="1.778" layer="95"/>
+</segment>
+<segment>
 <pinref part="U$2" gate="G$1" pin="DIN"/>
 <wire x1="22.86" y1="259.08" x2="15.24" y2="259.08" width="0.1524" layer="91"/>
 <label x="12.7" y="259.08" size="1.778" layer="95"/>
@@ -12451,6 +12441,11 @@ by exp-project-lbr.ulp</description>
 <label x="111.76" y="116.84" size="1.778" layer="95"/>
 <pinref part="X2" gate="G$1" pin="17"/>
 <pinref part="SV2" gate="G$1" pin="9"/>
+</segment>
+<segment>
+<pinref part="JP9" gate="G$1" pin="RXI"/>
+<wire x1="180.34" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
+<label x="187.96" y="139.7" size="1.778" layer="95"/>
 </segment>
 <segment>
 <pinref part="U$2" gate="G$1" pin="DOUT"/>
@@ -12483,6 +12478,16 @@ by exp-project-lbr.ulp</description>
 <wire x1="142.24" y1="119.38" x2="160.02" y2="119.38" width="0.1524" layer="91"/>
 <label x="157.48" y="119.38" size="1.778" layer="95" rot="MR0"/>
 <pinref part="X2" gate="G$1" pin="20"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="SCLK2"/>
+<wire x1="22.86" y1="256.54" x2="20.32" y2="256.54" width="0.1524" layer="91"/>
+<pinref part="U$2" gate="G$1" pin="SCLK1"/>
+<wire x1="20.32" y1="256.54" x2="15.24" y2="256.54" width="0.1524" layer="91"/>
+<wire x1="22.86" y1="254" x2="20.32" y2="254" width="0.1524" layer="91"/>
+<wire x1="20.32" y1="254" x2="20.32" y2="256.54" width="0.1524" layer="91"/>
+<junction x="20.32" y="256.54"/>
+<label x="12.7" y="256.54" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P1.0" class="0">
@@ -12581,9 +12586,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="X1" gate="G$1" pin="17"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="RXD"/>
-<wire x1="88.9" y1="266.7" x2="83.82" y2="266.7" width="0.1524" layer="91"/>
-<label x="78.74" y="266.7" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="RXD"/>
+<wire x1="144.78" y1="266.7" x2="134.62" y2="266.7" width="0.1524" layer="91"/>
+<label x="137.16" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P14.2" class="0">
@@ -12640,9 +12645,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV1" gate="G$1" pin="16"/>
 </segment>
 <segment>
-<pinref part="U$1" gate="G$1" pin="TXD"/>
-<wire x1="88.9" y1="269.24" x2="83.82" y2="269.24" width="0.1524" layer="91"/>
-<label x="78.74" y="269.24" size="1.778" layer="95"/>
+<pinref part="U$3" gate="G$1" pin="TXD"/>
+<wire x1="144.78" y1="269.24" x2="134.62" y2="269.24" width="0.1524" layer="91"/>
+<label x="137.16" y="269.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P3.1" class="0">
@@ -12683,9 +12688,9 @@ by exp-project-lbr.ulp</description>
 <pinref part="SV2" gate="G$1" pin="3"/>
 </segment>
 <segment>
-<pinref part="U$3" gate="G$1" pin="RXD"/>
-<wire x1="144.78" y1="266.7" x2="139.7" y2="266.7" width="0.1524" layer="91"/>
-<label x="134.62" y="266.7" size="1.778" layer="95"/>
+<pinref part="U$1" gate="G$1" pin="RXD"/>
+<wire x1="88.9" y1="266.7" x2="76.2" y2="266.7" width="0.1524" layer="91"/>
+<label x="78.74" y="266.7" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P5.7" class="0">
@@ -12709,11 +12714,6 @@ by exp-project-lbr.ulp</description>
 <label x="157.48" y="104.14" size="1.778" layer="95" rot="MR0"/>
 <pinref part="X2" gate="G$1" pin="8"/>
 </segment>
-<segment>
-<pinref part="JP9" gate="G$1" pin="RXI"/>
-<wire x1="180.34" y1="139.7" x2="193.04" y2="139.7" width="0.1524" layer="91"/>
-<label x="187.96" y="139.7" size="1.778" layer="95"/>
-</segment>
 </net>
 <net name="P5.0" class="0">
 <segment>
@@ -12721,11 +12721,6 @@ by exp-project-lbr.ulp</description>
 <label x="111.76" y="106.68" size="1.778" layer="95"/>
 <pinref part="X2" gate="G$1" pin="9"/>
 <pinref part="SV2" gate="G$1" pin="5"/>
-</segment>
-<segment>
-<pinref part="JP9" gate="G$1" pin="TXO"/>
-<wire x1="180.34" y1="142.24" x2="193.04" y2="142.24" width="0.1524" layer="91"/>
-<label x="187.96" y="142.24" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P15.3" class="0">
@@ -12791,6 +12786,11 @@ by exp-project-lbr.ulp</description>
 <pinref part="R11" gate="G$1" pin="2"/>
 <wire x1="-17.78" y1="220.98" x2="-10.16" y2="220.98" width="0.1524" layer="91"/>
 <label x="-15.24" y="220.98" size="1.778" layer="95"/>
+</segment>
+<segment>
+<pinref part="U$2" gate="G$1" pin="CS#"/>
+<wire x1="22.86" y1="251.46" x2="15.24" y2="251.46" width="0.1524" layer="91"/>
+<label x="12.7" y="251.46" size="1.778" layer="95"/>
 </segment>
 </net>
 <net name="P2.1" class="0">
