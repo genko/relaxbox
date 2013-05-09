@@ -1,0 +1,51 @@
+Partlist
+
+Exported from relaxbox.sch at 09.05.13 23:41
+
+EAGLE Version 6.4.0 Copyright (c) 1988-2013 CadSoft
+
+Assembly variant: 
+
+Part     Value          Device                             Package       Library                 Sheet	Reichelt-No			Farnell-No
+
+C1       0,1µF          CPOL-EUE2.5-5                      E2,5-5        rcl                     1	RAD 0,1/100	0,04 ¤
+C4       0,1µF          CPOL-EUE2.5-5                      E2,5-5        rcl                     1	RAD 0,1/100	0,04 ¤
+C5       0,1µF          CPOL-EUE2.5-5                      E2,5-5        rcl                     1	RAD 0,1/100	0,04 ¤
+C6       0,1µF          CPOL-EUE2.5-5                      E2,5-5        rcl                     1	RAD 0,1/100	0,04 ¤
+CAN1                    PINHD-1X2                          1X02          pinhead                 1	MPE 087-1-002	0,05 ¤
+CAN2                    PINHD-1X2                          1X02          pinhead                 1	MPE 087-1-002	0,05 ¤
+COM1                    JP2E                               JP2           jumper                  1	MPE 087-1-003	0,08 ¤
+COM2                    JP2E                               JP2           jumper                  1	MPE 087-1-003	0,08 ¤
+COM3                    SPARKFUN_ARDUINO_SERIAL_PROGRAMPTH SPARKFUN_1X06 ArduinoBluetoothMatev13 1	MPE 087-1-006	0,15 ¤
+DIO                     JP4Q                               JP4Q          jumper                  1	MPE 094-2-008	0,28 ¤
+IC1      MAX3232EUE     MAX3232EUE                         TSSOP16       maxim                   1					1460372	  1,78¤
+Q1       2N3819         2N3819                             TO92          transistor-fet          1	2N 3819		0,35 ¤
+Q2       2N3819         2N3819                             TO92          transistor-fet          1	2N 3819		0,35 ¤
+Q3       2N3819         2N3819                             TO92          transistor-fet          1	2N 3819		0,35 ¤
+Q4       2N3819         2N3819                             TO92          transistor-fet          1	2N 3819		0,35 ¤
+R1       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R2       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R3       120 Ohm        R-EU_M0805                         M0805         rcl                     1	SMD-0805 120	0,103 ¤	
+R4       120 Ohm        R-EU_M0805                         M0805         rcl                     1	SMD-0805 120	0,103 ¤
+R5       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R6       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R7       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R8       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R9       10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R10      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R11      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R12      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R13      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R14      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R15      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+R16      10k            R-EU_M0805                         M0805         rcl                     1	SMD-0805 10,0K	0,082 ¤
+RTC      DS3234         DS3234                             SO-20DW       ds3234                  1
+R_A1                    PINHD-1X2                          1X02          pinhead                 1	MPE 087-1-002	0,050 ¤
+R_A2                    PINHD-1X2                          1X02          pinhead                 1	MPE 087-1-002	0,050 ¤
+S2                      DIP03YL                            DIP03YL       switch-dil              1	NT 03		0,33 ¤
+SV1                     FE20-1                             FE20          con-lsta                1	BL 1X20G7 2,54	0,91 ¤ (Präz Buchsenleiste)
+SV2                     FE20-1                             FE20          con-lsta                1	BL 1X20G7 2,54	0,91 ¤ (Präz Buchsenleiste)
+U$1      MCP2551SO8     MCP2551SO8                         SO08          can                     1	MCP 2551-I/SN	1,10 ¤
+U$3      MCP2551SO8     MCP2551SO8                         SO08          can                     1	MCP 2551-I/SN	1,10 ¤
+X1       2x20           FE20-2                             FE20-2        con-lsta                1	BL 2X10G8 2,54	0,30 ¤ (2x10 pins Standard)
+X2       2*20           FE20-2                             FE20-2        con-lsta                1	BL 2X10G8 2,54	0,30 ¤ (2x10 pins Standard)
