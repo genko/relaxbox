@@ -1,6 +1,5 @@
 Reichelt
 --------
-
 Anzahl	Bezeichnung			Artikelnummer	Einzelpreis	Gesamtpreis
 -------------------------------------------------------------------------------------------
 4x	Elko radial 0,1µF, RM2,5	RAD 0,1/100	0,04 €		0,16 €
@@ -17,18 +16,35 @@ Anzahl	Bezeichnung			Artikelnummer	Einzelpreis	Gesamtpreis
 4x	Buchsenleiste 2x10, RM2,5	BL 2X10G8 2,54	0,30 €		1,20 €
 								      -----------
 									9,26 €
-
-
-Farnell:
---------
-
-Anzahl	Bezeichnung			Artikelnummer	Einzelpreis	Gesamtpreis
+RS-Online:
+----------
+Anzahl	Bezeichnung			RS Best.Nr	Einzelpreis	Gesamtpreis
 -------------------------------------------------------------------------------------------
-1x 	MAXIM MAX3232			1460372	  	1,78€		1,78 €
+5 	MAX3232 16Pin TSSOP (min 5 Stk)	660-8736	  0,94€		4,70 €
 								      -----------
-									1,78 €
-
-
+									4,78 €
 
 								___________________
-								       11,04 €
+								       14,04 €
+
+
+
+
+
+David braucht nocht folgendes vom Reichelt:
+Anzahl	Bezeichnung						Artikelnummer	Einzelpreis	Gesamtpreis
+------------------------------------------------------------------------------------------------------------
+2  	DC 2,1 x 5,5 mm Buchse > Terminalblock 2 Pin /2T 	DELOCK 65423	1,25 €		1,25 €
+2	DC 2,1 x 5,5 mm Stecker > Terminalblock 2 Pin /2T 	DELOCK 65422	1,25 €		1,25 €
+2	Metallfilmwiderstände 0,25W, 1%, 180 Ohm		METALL 180	0,08 €		0,16 €
+2	Metallfilmwiderstände 0,25W, 1%, 1,54kOhm		METALL 1,54K	0,08 €		0,16 €
+4	Subminiatur-Elko, radial, 10µF/16Volt 			SM 10/16RAD	0,05 €		0,20 €
+1	Kippschalter, print, 2-polig, 3A-250VAC, Ein-Ein	AS 500FPC	3,15 €		3,15 €
+1	Automatik-Bleibatterie-Compact-Lader AL 800 		AL 800	       13,50 €	       13,50 €
+
+
+David braucht nocht folgendes vom RS-Online:
+Anzahl	Bezeichnung						RS Best.Nr	Einzelpreis	Gesamtpreis
+------------------------------------------------------------------------------------------------------------
+1	IC LM1085IT-12						533-9381	2,45		2,45
+
